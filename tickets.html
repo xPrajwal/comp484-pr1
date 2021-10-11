@@ -20,10 +20,13 @@
     </nav>
   </header>
 <main role="main">
-    <h3>Buy you tickets to the science fair this Sunday</h3>
+  <section>
+    <h3>Buy your tickets to the science fair this Sunday</h3>
     
     <label for="ticket-select">Select number of tickets:</label>
+    <!--"select" tag is used to create a drop down list to select the number of tickets. id attribute is used to enable it to be associated with a <label> for accessibility purposes-->
     <select name="tickets" id="ticket-select">
+      <!--"Every "option" tag creates an entry in the drop down-->
         <option value="">--Please choose an option--</option>
         <option value="one">1</option>
         <option value="two">2</option>
@@ -32,7 +35,9 @@
         <option value="five">5</option>
     </select>
     <br>
+    <!--"del" tag is used to represent a deleted document using a strike-through styling to the text. Here, the old price has been represented by using the "del" tag-->
     <b>Price:</b> <del>$100</del> <ins>$50</ins> 
+  </section>
 </main>
 <footer role="contentinfo">
   <p>This work is licensed under the  <a href="http://creativecommons.org/licenses/by-nc/3.0/">CC BY-NC 3.0 Creative Commons License</a>.

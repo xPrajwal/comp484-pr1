@@ -7,7 +7,7 @@
 </head>
 <body>
 <header role="banner">
-  <h1>Natural States of matterkjasndkjlans</h1>
+  <h1>Natural States of matter</h1>
   <h2>Solid</h2>
   <nav role="navigation">
     <ul>
@@ -20,8 +20,10 @@
   </nav>
 </header>
 <main role="main">
-  <article>
+  <article role="article">
+  <!--Video tag is used to add a video file to the html page. Autoplay: starts playing the video as soon as the page loads, Muted: Keeps the video muted by default, controls: Enables a control panel for the video player-->
   <video src="/videos/solids.mp4" title="What is a solid?" autoplay muted controls width="500px" class="flowRight">
+    <!--Two "track" tags are nested inside the video tag to attach two different subtitles to the video. Kind: mentions what type of track it is, srclang: to mention the language of the track text data, label: A user-readable title to the track, default: selects the respective track as default-->
     <track src="/subtitles/What Is A Solid.vtt" kind="subtitles" srclang="en" label="English" default>
     <track src="/subtitles/What Is A Solid.vtt" kind="subtitles" srclang="es" label="Espanol">
   </video>

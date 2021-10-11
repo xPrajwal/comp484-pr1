@@ -36,7 +36,7 @@ nav{
 }
 
 nav ul {
-	list-style-type: none; /* Removes the markers the list items */
+	list-style-type: none; /* Removes the markers of the list items */
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
